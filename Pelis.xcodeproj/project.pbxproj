@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCD60B52180C66400F618D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD60B42180C66400F618D7 /* AppDelegate.swift */; };
+		3DCD60B72180C66400F618D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD60B62180C66400F618D7 /* ViewController.swift */; };
+		3DCD60BA2180C66400F618D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD60B82180C66400F618D7 /* Main.storyboard */; };
+		3DCD60BC2180C66900F618D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD60BB2180C66900F618D7 /* Assets.xcassets */; };
+		3DCD60BF2180C66900F618D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD60BD2180C66900F618D7 /* LaunchScreen.storyboard */; };
+		3DCD60CA2180C66900F618D7 /* PelisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD60C92180C66900F618D7 /* PelisTests.swift */; };
+		3DCD60D52180C66900F618D7 /* PelisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD60D42180C66900F618D7 /* PelisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCD60C62180C66900F618D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCD60A92180C66400F618D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCD60B02180C66400F618D7;
+			remoteInfo = Pelis;
+		};
+		3DCD60D12180C66900F618D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCD60A92180C66400F618D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCD60B02180C66400F618D7;
+			remoteInfo = Pelis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DCD60B12180C66400F618D7 /* Pelis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pelis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD60B42180C66400F618D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCD60B62180C66400F618D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCD60B92180C66400F618D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCD60BB2180C66900F618D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCD60BE2180C66900F618D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCD60C02180C66900F618D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCD60C52180C66900F618D7 /* PelisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD60C92180C66900F618D7 /* PelisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelisTests.swift; sourceTree = "<group>"; };
+		3DCD60CB2180C66900F618D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCD60D02180C66900F618D7 /* PelisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD60D42180C66900F618D7 /* PelisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelisUITests.swift; sourceTree = "<group>"; };
+		3DCD60D62180C66900F618D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCD60AE2180C66400F618D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD60C22180C66900F618D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD60CD2180C66900F618D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCD60A82180C66400F618D7 = {
+			isa = PBXGroup;
+			children = (
+				3DCD60B32180C66400F618D7 /* Pelis */,
+				3DCD60C82180C66900F618D7 /* PelisTests */,
+				3DCD60D32180C66900F618D7 /* PelisUITests */,
+				3DCD60B22180C66400F618D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCD60B22180C66400F618D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD60B12180C66400F618D7 /* Pelis.app */,
+				3DCD60C52180C66900F618D7 /* PelisTests.xctest */,
+				3DCD60D02180C66900F618D7 /* PelisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCD60B32180C66400F618D7 /* Pelis */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD60B42180C66400F618D7 /* AppDelegate.swift */,
+				3DCD60B62180C66400F618D7 /* ViewController.swift */,
+				3DCD60B82180C66400F618D7 /* Main.storyboard */,
+				3DCD60BB2180C66900F618D7 /* Assets.xcassets */,
+				3DCD60BD2180C66900F618D7 /* LaunchScreen.storyboard */,
+				3DCD60C02180C66900F618D7 /* Info.plist */,
+			);
+			path = Pelis;
+			sourceTree = "<group>";
+		};
+		3DCD60C82180C66900F618D7 /* PelisTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD60C92180C66900F618D7 /* PelisTests.swift */,
+				3DCD60CB2180C66900F618D7 /* Info.plist */,
+			);
+			path = PelisTests;
+			sourceTree = "<group>";
+		};
+		3DCD60D32180C66900F618D7 /* PelisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD60D42180C66900F618D7 /* PelisUITests.swift */,
+				3DCD60D62180C66900F618D7 /* Info.plist */,
+			);
+			path = PelisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCD60B02180C66400F618D7 /* Pelis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD60D92180C66900F618D7 /* Build configuration list for PBXNativeTarget "Pelis" */;
+			buildPhases = (
+				3DCD60AD2180C66400F618D7 /* Sources */,
+				3DCD60AE2180C66400F618D7 /* Frameworks */,
+				3DCD60AF2180C66400F618D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pelis;
+			productName = Pelis;
+			productReference = 3DCD60B12180C66400F618D7 /* Pelis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCD60C42180C66900F618D7 /* PelisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD60DC2180C66900F618D7 /* Build configuration list for PBXNativeTarget "PelisTests" */;
+			buildPhases = (
+				3DCD60C12180C66900F618D7 /* Sources */,
+				3DCD60C22180C66900F618D7 /* Frameworks */,
+				3DCD60C32180C66900F618D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCD60C72180C66900F618D7 /* PBXTargetDependency */,
+			);
+			name = PelisTests;
+			productName = PelisTests;
+			productReference = 3DCD60C52180C66900F618D7 /* PelisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DCD60CF2180C66900F618D7 /* PelisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD60DF2180C66900F618D7 /* Build configuration list for PBXNativeTarget "PelisUITests" */;
+			buildPhases = (
+				3DCD60CC2180C66900F618D7 /* Sources */,
+				3DCD60CD2180C66900F618D7 /* Frameworks */,
+				3DCD60CE2180C66900F618D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCD60D22180C66900F618D7 /* PBXTargetDependency */,
+			);
+			name = PelisUITests;
+			productName = PelisUITests;
+			productReference = 3DCD60D02180C66900F618D7 /* PelisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCD60A92180C66400F618D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3DCD60B02180C66400F618D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3DCD60C42180C66900F618D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3DCD60B02180C66400F618D7;
+					};
+					3DCD60CF2180C66900F618D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3DCD60B02180C66400F618D7;
+					};
+				};
+			};
+			buildConfigurationList = 3DCD60AC2180C66400F618D7 /* Build configuration list for PBXProject "Pelis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCD60A82180C66400F618D7;
+			productRefGroup = 3DCD60B22180C66400F618D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCD60B02180C66400F618D7 /* Pelis */,
+				3DCD60C42180C66900F618D7 /* PelisTests */,
+				3DCD60CF2180C66900F618D7 /* PelisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCD60AF2180C66400F618D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD60BF2180C66900F618D7 /* LaunchScreen.storyboard in Resources */,
+				3DCD60BC2180C66900F618D7 /* Assets.xcassets in Resources */,
+				3DCD60BA2180C66400F618D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD60C32180C66900F618D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD60CE2180C66900F618D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCD60AD2180C66400F618D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD60B72180C66400F618D7 /* ViewController.swift in Sources */,
+				3DCD60B52180C66400F618D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD60C12180C66900F618D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD60CA2180C66900F618D7 /* PelisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD60CC2180C66900F618D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD60D52180C66900F618D7 /* PelisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCD60C72180C66900F618D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCD60B02180C66400F618D7 /* Pelis */;
+			targetProxy = 3DCD60C62180C66900F618D7 /* PBXContainerItemProxy */;
+		};
+		3DCD60D22180C66900F618D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCD60B02180C66400F618D7 /* Pelis */;
+			targetProxy = 3DCD60D12180C66900F618D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCD60B82180C66400F618D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCD60B92180C66400F618D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCD60BD2180C66900F618D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCD60BE2180C66900F618D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCD60D72180C66900F618D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCD60D82180C66900F618D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCD60DA2180C66900F618D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pelis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.Pelis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DCD60DB2180C66900F618D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pelis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.Pelis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DCD60DD2180C66900F618D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PelisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.PelisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelis.app/Pelis";
+			};
+			name = Debug;
+		};
+		3DCD60DE2180C66900F618D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PelisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.PelisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelis.app/Pelis";
+			};
+			name = Release;
+		};
+		3DCD60E02180C66900F618D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PelisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.PelisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pelis;
+			};
+			name = Debug;
+		};
+		3DCD60E12180C66900F618D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PelisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.edu.PelisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pelis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCD60AC2180C66400F618D7 /* Build configuration list for PBXProject "Pelis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD60D72180C66900F618D7 /* Debug */,
+				3DCD60D82180C66900F618D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD60D92180C66900F618D7 /* Build configuration list for PBXNativeTarget "Pelis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD60DA2180C66900F618D7 /* Debug */,
+				3DCD60DB2180C66900F618D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD60DC2180C66900F618D7 /* Build configuration list for PBXNativeTarget "PelisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD60DD2180C66900F618D7 /* Debug */,
+				3DCD60DE2180C66900F618D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD60DF2180C66900F618D7 /* Build configuration list for PBXNativeTarget "PelisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD60E02180C66900F618D7 /* Debug */,
+				3DCD60E12180C66900F618D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCD60A92180C66400F618D7 /* Project object */;
+}
